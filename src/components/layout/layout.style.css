@@ -1,0 +1,12 @@
+.grid {
+	display: grid;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px auto 200px;
+	grid-template-areas:
+		'Nav Nav Nav Nav'
+		'Body Body Body Body'
+		'Footer Footer Footer Footer';
+
+	height: 100vh;
+}
