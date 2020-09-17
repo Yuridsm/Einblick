@@ -5,7 +5,7 @@ import { Container, Brand, Menu, Item, Input, Buttons, Login, Signup } from './h
 export const Header = props => {
 	return(
 	<Container>
-		<Brand><a href="/">Einblink</a></Brand>
+		<Brand><a href="/">Einblick</a></Brand>
 		<Menu>
 			<Item><span><a href="/jobs">Job</a></span></Item>
 			<Item><a href="#">Comunnity</a></Item>
