@@ -4,4 +4,7 @@
 
 The project is still in the development phase, every day that passes, I have new ideas that can add to those that are already implemented in the platform source code. Later, there will be integration with Linkedin API, increasing the user experience with the platform.
 
+I'm implementing the Job area, look at:
+![](screenshots/screen02.png)
+
 Made with <3 by Yuri Melo.
