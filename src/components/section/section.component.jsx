@@ -9,7 +9,7 @@ export const Section = props => {
 	return (
 		<Container>
 			<MainMessage>
-				<Title>Welcome to <span>Einblink</span></Title>
+				<Title>Welcome to <span>Einblick</span></Title>
 				<Description>We build products that empower developer and engineer and connect them to solutions that enable productivity, growth, and discovery in all field since computing, mathematics, physics, chemical up to engineering.</Description>
 			</MainMessage>
 			<MainImage>
