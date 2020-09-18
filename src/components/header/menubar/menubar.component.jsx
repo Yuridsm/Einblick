@@ -2,6 +2,6 @@ import React from 'react';
 
 import { MenubarStyled } from './menubar.style';
 
-export const Menubar = () => {
-	return <MenubarStyled/>
+export const Menubar = (props) => {
+	return <MenubarStyled>{props.children}</MenubarStyled>
 };
