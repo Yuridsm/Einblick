@@ -9,4 +9,5 @@ export const MenubarStyled = styled.div`
 	border-top: 1px solid rgba(0,0,0,0.08);
 	border-bottom: 1px solid rgba(0,0,0,0.08);
 	padding: 0 5vw;
+	
 `;
