@@ -2,6 +2,20 @@ import React from 'react';
 
 import { Container, Field, Locations, Plus, Minus, Skill, Degree, JobType, Organization } from './jobConfig.style';
 
+let variableBoolean = true;
+
+const shiftingTheVariableBoolean = (variableBoolean) => {
+	if(variableBoolean) {
+		variableBoolean = false;
+		console.log('testing...', variableBoolean);
+	} else {
+		variableBoolean = true;
+		console.log('testing...', variableBoolean);
+	}
+};
+
+const shiftingTheBottom  = (variableBoolean) => variableBoolean ? <Plus/> : <Minus/>;
+
 export const JobConfig = () => {
 	return (
 		<Container>
@@ -16,7 +30,9 @@ export const JobConfig = () => {
 			<Locations>
 				<div>
 					<p>Location</p>
-					{ false ? <Plus/> : <Minus/> }
+					<a href="#" onClick={shiftingTheVariableBoolean()}>
+						{ variableBoolean ? shiftingTheBottom(variableBoolean) : shiftingTheBottom(variableBoolean) }
+					</a>
 				</div>
 				<input type="text" name="locations" placeholder="New York, London, Michigan"/>
 			</Locations>

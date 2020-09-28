@@ -11,7 +11,8 @@ export const Container = styled.div`
 
 export const Brand = styled.div`
 	display: flex;
-	flex-shrink: 3;
+	flex-shrink: 1;
+	flex-grow: 0;
 	grid-area: brand;
 	font-size: 28px;
 	font-family: 'Bahnschrift', sans-serif;
@@ -25,7 +26,7 @@ export const Brand = styled.div`
 
 export const Menu = styled.div`
 	grid-area: menu;
-	flex-shrink: 2;
+	flex-shrink: 1;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -33,6 +34,7 @@ export const Menu = styled.div`
 
 export const Item = styled.div`
 	display: flex;
+	flex-shrink: 1;
 	align-items: center;
 	font-size: 16px;
 	font-family: 'Bahnschrift';
@@ -64,7 +66,7 @@ export const Item = styled.div`
 export const Input = styled.div`
 	display: flex;
 	justify-content: flex-end;
-	flex-grow: 2;
+	flex-grow: 1;
 	flex-shrink: 1;
 	font-size: 16px;
 	grid-area: input;
@@ -74,6 +76,7 @@ export const Input = styled.div`
 		width: calc(95% - 15px);
 		height: calc(75% - 2px);
 		display: flex;
+		flex-shrink: 1;
 		align-self: center;
 		border-radius: 6px;
 		border-color: #dadce0;
@@ -89,8 +92,8 @@ export const Input = styled.div`
 
 export const Buttons = styled.div`
 	display: flex;
-	flex-grow: 2;
-	flex-shrink: 1;
+	flex-grow: 0;
+	flex-shrink: 0;
 	grid-area: buttons;
 	justify-content: space-around;
 	align-items: center;
@@ -99,6 +102,7 @@ export const Buttons = styled.div`
 export const Login = styled.div`
 	display: flex;
 	flex-shrink: 0;
+	flex-grow: 0;
 	align-items: center;
 	
 	> a {
@@ -116,6 +120,7 @@ export const Login = styled.div`
 export const Signup = styled.div`
 	display: flex;
 	flex-shrink: 0;
+	flex-grow: 0;
 	align-items: center;
 	
 	> a {

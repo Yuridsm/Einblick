@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
+import header from '../../header.svg';
+
 export const Container = styled.div`
 	display: flex;
 	grid-area: Body;
 	align-items: center;
 	width: 100vw;
+
 	height: calc(100vh - 50px);
+	background-image: url(${header});
+	background-repeat: no-repeat;
 	
 	@media(max-width: 816px) {
 		display: flex;

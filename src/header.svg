@@ -7,35 +7,87 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="header.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
    viewBox="0 0 297 210"
-   height="210mm"
-   width="297mm">
+   version="1.1"
+   preserveAspectRatio="none"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="header.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <clipPath
+       id="clipPath837"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(18.741391)"
+         ry="0"
+         y="0"
+         x="0"
+         height="210"
+         width="297"
+         id="rect839"
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:21.8245" />
+    </clipPath>
+    <clipPath
+       id="clipPath845"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="matrix(-0.97151222,-0.23698948,-0.41314417,-0.91066563,0,0)"
+         ry="0"
+         y="0"
+         x="0"
+         height="289.17511"
+         width="352.28207"
+         id="rect847"
+         style="fill:#766df4;fill-opacity:1;stroke:none;stroke-width:28.8339" />
+    </clipPath>
+    <clipPath
+       id="clipPath855"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="matrix(0.89426819,-0.44753145,0,1,0,0)"
+         ry="0"
+         y="0"
+         x="0"
+         height="210"
+         width="383.60721"
+         id="rect857"
+         style="fill:#766df4;fill-opacity:0.452685;stroke:none;stroke-width:37.1516" />
+    </clipPath>
+    <clipPath
+       id="clipPath879"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-1.8471214e-06"
+         x="0"
+         height="210.00002"
+         width="297"
+         id="rect881"
+         style="fill:#be6df4;fill-opacity:1;stroke:none;stroke-width:41.8793" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="837"
-     inkscape:window-width="1600"
-     inkscape:snap-page="true"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="439.2953"
-     inkscape:cx="495.0738"
-     inkscape:zoom="0.7"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-intersection-paths="true"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="122.10272"
+     inkscape:cy="132.05255"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -44,18 +96,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
-    <path
-       sodipodi:nodetypes="ccccc"
-       id="path833"
-       d="M 0,210 H 297 V 0 L 191.15469,130.18386 Z"
-       style="fill:#766df4;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  </g>
+     id="layer1" />
 </svg>

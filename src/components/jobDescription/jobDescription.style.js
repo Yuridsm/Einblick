@@ -17,8 +17,8 @@ export const Subcontainer = styled.div`
 	display: flex;
 	width: 100vw;
 	height: calc(100vh - 50px - 70px);
-	background-color: red;
 `;
+
 export const DocumentSection = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -26,14 +26,28 @@ export const DocumentSection = styled.div`
 	height: calc(100vh - 50px - 70px);
 	background-color: #fff;
 	align-items: center;
+	overflow-y: scroll;
+
+	::-webkit-scrollbar {
+		width: 8px;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		background-color: #766df4;
+		border-radius: 4px;
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: rgba(118,109,244,0.14);
+	}
 `;
 
 export const Document = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: calc(85% - 20px - 20px);
+	width: calc(85% - 40px - 40px);
 	background-color: #fff;
-	padding: 10px 20px;
+	padding: 20px 40px;
 	margin: 50px 0;
 	box-shadow: 0 0px 5px 0px rgba(0,0,0, .2);
 	border-radius: 4px;
@@ -168,3 +182,21 @@ export const List = styled.div`
 	}
 `;
 
+export const About = styled.div`
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+	> h1 {
+		font-size: 24px;
+		font-family: 'bahnschrift';
+		margin: 20px 0;
+	}
+
+	> p {
+		font-size: 16px;
+		font-family: 'bahnschrift';
+		color: rgba(0,0,0,0.85);
+		margin-bottom: 10px;
+	}
+`;

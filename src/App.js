@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import { Layout } from './components/layout/layout.component';
 import { Routes } from './routes';
 
 class App extends Component {
