@@ -9,13 +9,14 @@ import { Edit } from '@styled-icons/entypo/Edit';
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	width: 75vw;
 	height: calc(100vh);
+	background-color: red;
 `;
 
 export const Subcontainer = styled.div`
 	display: flex;
-	width: 100vw;
+	width: 100%;
 	height: calc(100vh - 50px - 70px);
 `;
 
