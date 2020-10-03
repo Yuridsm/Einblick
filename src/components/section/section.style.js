@@ -1,15 +1,13 @@
 import styled from 'styled-components';
 
-import header from '../../header.svg';
-
 export const Container = styled.div`
 	display: flex;
 	grid-area: Body;
 	align-items: center;
-	width: 100vw;
-
+	width: 100%;
 	height: calc(100vh - 50px);
-	background-image: url(${header});
+
+	background-image: url(${props => props.bgSvgHeader || ''});
 	background-repeat: no-repeat;
 	
 	@media(max-width: 816px) {
