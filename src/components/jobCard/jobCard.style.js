@@ -8,19 +8,20 @@ import { Location } from '@styled-icons/icomoon/Location';
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	padding: 0 80px;
+	align-items: center;
 	background-color: #f8f9fa;
-	width: calc(75vw - 160px);
+	padding: 0 50px;
+	width: 75vw;
 	height: calc(100vh - 50px - 70px);
 	overflow-y: scroll;
 
 	::-webkit-scrollbar {
-		width: 8px;
+		width: 10px;
 	}
 	
 	::-webkit-scrollbar-thumb {
 		background-color: #766df4;
-		border-radius: 4px;
+		border-radius: 10px;
 	}
 
 	::-webkit-scrollbar-track {
@@ -31,8 +32,9 @@ export const Container = styled.div`
 export const Document = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: calc(100% - 80px);
-	height: calc(60% - 40px);
+	justify-content: space-between;
+	width: calc(100% - 50px);
+	min-height: calc(60% - 40px);
 	margin-top: 80px;
 	border: solid 1px #dadce0;
 	border-radius: 4px;
