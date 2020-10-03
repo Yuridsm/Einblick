@@ -9,16 +9,16 @@ export const Container = styled.div`
 	margin: 0;
 	overflow-y: scroll;
 	padding: 0 10px;
-	width: calc(25vw - 8px - 8px);
+	width: 25vw;
 	height: calc(100vh - 50px - 70px);
 
 	::-webkit-scrollbar {
-		width: 8px;
+		width: 10px;
 	}
 	
 	::-webkit-scrollbar-thumb {
 		background-color: #766df4;
-		border-radius: 4px;
+		border-radius: 10px;
 	}
 
 	::-webkit-scrollbar-track {
