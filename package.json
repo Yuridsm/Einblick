@@ -1,6 +1,9 @@
 {
   "name": "einblink",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "@styled-icons/boxicons-solid": "^10.18.0",
